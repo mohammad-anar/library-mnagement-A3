@@ -1,19 +1,21 @@
-
 # Library Management API
 
-A **Library Management System API** built with **Express**, **TypeScript**, and **MongoDB**.  
-This project allows you to manage books, borrow them, and track borrowed book summaries.  
-It includes **validation, business logic, aggregation pipelines, middleware, and proper error handling**.
+A **Library Management System API** built with **Express**, **TypeScript**, and
+**MongoDB**.  
+This project allows you to manage books, borrow them, and track borrowed book
+summaries.  
+It includes **validation, business logic, aggregation pipelines, middleware, and
+proper error handling**.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Node.js** with **TypeScript**  
-- **Express.js** for REST API  
-- **MongoDB** with **Mongoose**  
-- **CORS** enabled for frontend requests  
-- **ts-node-dev / tsx** for development  
+- **Node.js** with **TypeScript**
+- **Express.js** for REST API
+- **MongoDB** with **Mongoose**
+- **CORS** enabled for frontend requests
+- **ts-node-dev / tsx** for development
 
 ---
 
@@ -40,26 +42,24 @@ It includes **validation, business logic, aggregation pipelines, middleware, and
 ## ⚙️ Project Setup
 
 1. **Clone the repository**
+
 ```bash
 git clone https://github.com/mohammad-anar/library-mnagement-A3.git
-
+```
 
 ```bash
-cd library-mnagement-A3 
-
+cd library-mnagement-A3
+```
 
 ```bash
 npm install
+```
 
 ```bash
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/libraryDB
-
+```
 
 ```bash
 npm run dev
-
-
-
-
-
+```
