@@ -55,6 +55,8 @@ cd library-mnagement-A3
 npm install
 ```
 
+1. **create and update .env file**
+
 ```bash
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/libraryDB
